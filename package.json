@@ -1,0 +1,18 @@
+{
+  "name": "pupitre",
+  "version": "1.0.0",
+  "description": "extends page.js. Show or hide path's views. Views may be fetched in parallel with html5 import",
+  "scripts": {
+    "build": "babel --presets es2015 src/pupitre.js --out-file pupitre.js"
+  },
+  "author": "William Huart",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/herejia/pupitre.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2"
+  }
+}
